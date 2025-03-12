@@ -9,7 +9,7 @@ function Billing() {
         await navigator.share({
           title: "Check out this amazing site!",
           text: "I'm using this fantastic site for free! Check it out here:",
-          url: "https://kirat-gp-tai-com.vercel.app/",
+          url: "https://kirat-gpt-ai.vercel.app/",
         });
         console.log("Thanks for sharing!");
       } catch (error) {
